@@ -1,8 +1,9 @@
 package com.mufeng.test;
 
-public class Character {
+public class CharacterTest {
     public static void main(String[] args) {
-        Character ch = 'a';
-        System.out.println(ch.);
+        // 'Character(char)' 已弃用并被标记为移除
+//        Character ch = new Character('a');
+//        System.out.println(ch.is);
     }
 }
