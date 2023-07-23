@@ -9,8 +9,6 @@ public class CustomException extends Exception {
 
     @Override
     public String toString() {
-        return "CustomException{" +
-                "detail=" + detail +
-                '}';
+        return "CustomException{" + "detail=" + detail + '}';
     }
 }
