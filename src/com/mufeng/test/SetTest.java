@@ -20,7 +20,6 @@ public class SetTest {
         while (it.hasNext()) {
             System.out.println(it.next());
         }
-
         // 可自动排序
         TreeSet<Integer> treeSet = new TreeSet<>();
         treeSet.add(-1);
