@@ -1,6 +1,5 @@
 package com.mufeng.test.data;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class TreeNodeByArray {
@@ -9,7 +8,6 @@ public class TreeNodeByArray {
     public TreeNodeByArray(ArrayList<Integer> array) {
         tree = new ArrayList<>(array);
     }
-
     public int size() {
         return tree.size();
     }
