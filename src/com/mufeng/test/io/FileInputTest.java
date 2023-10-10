@@ -9,11 +9,13 @@ public class FileInputTest {
 
     public static void main(String[] args) {
 
+        // try with resource
         try (InputStream is = new FileInputStream("readme.txt");) {
-            int n;
-            while ((n = is.read()) != -1) {
-                System.out.println(n);
-            }
+            byte[] bytes = new byte[is.available()];
+//            while ((is.read(bytes)) != -1) {
+            is.read(bytes);
+            System.out.print(new String(bytes));
+//            }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

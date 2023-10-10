@@ -5,9 +5,13 @@ import java.io.IOException;
 
 public class FIleOutputTest {
     public static void main(String[] args) throws IOException {
-        FileOutputStream fos = new FileOutputStream(".\\test.txt");
-        fos.write(98);
-        fos.close();
-        System.out.println("写入成功");
+        try (FileOutputStream fos = new FileOutputStream("readme2.txt",  true)) {
+//            fos.write(98);
+            fos.write("HelloWorld".getBytes());
+            fos.flush();
+            System.out.println("写入成功");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
