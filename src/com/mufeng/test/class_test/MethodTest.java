@@ -6,10 +6,10 @@ import java.lang.reflect.Method;
 
 public class MethodTest {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
-        Class<Student> studentClass = Student.class;
-        Constructor<Student> declaredConstructor = studentClass.getDeclaredConstructor(String.class);
+        Class<Student1> studentClass = Student1.class;
+        Constructor<Student1> declaredConstructor = studentClass.getDeclaredConstructor(String.class);
         declaredConstructor.setAccessible(true);
-        Student student = declaredConstructor.newInstance("小明");
+        Student1 student = declaredConstructor.newInstance("小明");
         student.study("nihao");
         Method study = studentClass.getMethod("study", String.class);
         System.out.println(study.invoke(student, "小明"));
