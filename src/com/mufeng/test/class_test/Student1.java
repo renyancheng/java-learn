@@ -1,10 +1,10 @@
 package com.mufeng.test.class_test;
 
-public class Student {
+public class Student1 {
     String name;
     int age;
 
-    private Student(String name) {
+    private Student1(String name) {
         this.name = name;
     }
 
