@@ -1,0 +1,40 @@
+11月 27, 2023 2:39:49 下午 com.mufeng.test.logger.LoggerTest main
+严重: severe
+11月 27, 2023 2:39:49 下午 com.mufeng.test.logger.LoggerTest main
+警告: warning
+11月 27, 2023 2:39:49 下午 com.mufeng.test.logger.LoggerTest main
+信息: info
+11月 27, 2023 2:39:49 下午 com.mufeng.test.logger.LoggerTest main
+配置: config
+11月 27, 2023 2:40:44 下午 com.mufeng.test.logger.LoggerTest main
+严重: severe
+11月 27, 2023 2:40:44 下午 com.mufeng.test.logger.LoggerTest main
+警告: warning
+11月 27, 2023 2:40:44 下午 com.mufeng.test.logger.LoggerTest main
+信息: info
+11月 27, 2023 2:40:44 下午 com.mufeng.test.logger.LoggerTest main
+配置: config
+11月 27, 2023 2:40:45 下午 com.mufeng.test.logger.LoggerTest main
+严重: severe
+11月 27, 2023 2:40:45 下午 com.mufeng.test.logger.LoggerTest main
+警告: warning
+11月 27, 2023 2:40:45 下午 com.mufeng.test.logger.LoggerTest main
+信息: info
+11月 27, 2023 2:40:45 下午 com.mufeng.test.logger.LoggerTest main
+配置: config
+11月 27, 2023 2:40:46 下午 com.mufeng.test.logger.LoggerTest main
+严重: severe
+11月 27, 2023 2:40:46 下午 com.mufeng.test.logger.LoggerTest main
+警告: warning
+11月 27, 2023 2:40:46 下午 com.mufeng.test.logger.LoggerTest main
+信息: info
+11月 27, 2023 2:40:46 下午 com.mufeng.test.logger.LoggerTest main
+配置: config
+11月 27, 2023 2:40:47 下午 com.mufeng.test.logger.LoggerTest main
+严重: severe
+11月 27, 2023 2:40:47 下午 com.mufeng.test.logger.LoggerTest main
+警告: warning
+11月 27, 2023 2:40:47 下午 com.mufeng.test.logger.LoggerTest main
+信息: info
+11月 27, 2023 2:40:47 下午 com.mufeng.test.logger.LoggerTest main
+配置: config

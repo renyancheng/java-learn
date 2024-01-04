@@ -36,7 +36,7 @@ public class MybatisTest {
         List<Teacher> teacher= tMapper.getTeacherByTid(117);
         teacher.forEach(System.out::println);
 */
-//        System.out.println(mapper.getStudentBySid(1));
+        System.out.println(mapper.getStudentBySid(1));
 //        mapper.addStudent(new Student().setName("RenYancheng").setSex("M"));
 //        System.out.println(mapper.deleteStudent(52));
 //        System.out.println(mapper.updateStudent(new Student().setSex("M").setName("刀哥").setSid(51)));
