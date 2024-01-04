@@ -3,6 +3,9 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <settings>
+        <setting name="logImpl" value="JDK_LOGGING"/>
+    </settings>
     <typeAliases>
         <typeAlias alias="Student" type="com.mufeng.test.sql.entity.Student"/>
         <typeAlias alias="Teacher" type="com.mufeng.test.sql.entity.Teacher"/>
